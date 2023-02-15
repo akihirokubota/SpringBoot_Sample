@@ -16,13 +16,12 @@ public class UserAddRequest implements Serializable {
     @Size(max = 24, message = "ユーザーIDは24桁以内で入力してください")
     private String userid;
 
-        /**
+    /**
      * メールアドレス
      */
     @NotEmpty(message = "名前を入力してください(必須)")
     @Size(max = 50, message = "名前は50桁以内で入力してください")
     private String name;
-
     
     /**
      * 名前
