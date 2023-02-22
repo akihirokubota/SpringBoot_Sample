@@ -9,6 +9,8 @@ import com.example.demo.dao.UserDao;
 import com.example.demo.entity.User;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+//*デフォルト存在するファイルだが基本的にいらないので削除してよい */
 @MybatisTest
 @ActiveProfiles("test")
 class DemoApplicationTests {
