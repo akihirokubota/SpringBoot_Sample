@@ -1,6 +1,7 @@
 #ワークフローの名前
 name: Java CI with Gradle
 
+
 #メインブランチがプッシュされたときに実行される
 on:
   push:
